@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleRestServiceOpgave4", "SimpleRestServiceOpgave4\SimpleRestServiceOpgave4.csproj", "{77473403-9B41-460E-96D7-5116BA1094FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTService", "RESTService\RESTService.csproj", "{DE0B7D19-159A-4727-B223-F81AFFA99BA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77473403-9B41-460E-96D7-5116BA1094FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77473403-9B41-460E-96D7-5116BA1094FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77473403-9B41-460E-96D7-5116BA1094FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77473403-9B41-460E-96D7-5116BA1094FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE0B7D19-159A-4727-B223-F81AFFA99BA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE0B7D19-159A-4727-B223-F81AFFA99BA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE0B7D19-159A-4727-B223-F81AFFA99BA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE0B7D19-159A-4727-B223-F81AFFA99BA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB46C0E3-01F8-44E5-9FB4-9827B32B4095}
+	EndGlobalSection
+EndGlobal
