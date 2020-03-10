@@ -16,13 +16,15 @@ namespace RESTService.Controllers
             new Book("Charlie og Chokoladefabrikken","HC Andersen",400,"1234567891014"),
             new Book("Albertshave","Kris Sørensen",500,"1234567891015"),
         };
-
-        [HttpGet]
+        
+         // /api/book
+        [HttpGet()]
         public IEnumerable<Book> Get()
         {
             return books;
         }
 
+        // /api/book/[isbn]
         [HttpGet("{isbn13}", Name = "Get")]
         public Book GetBook(string isbn13)
         {
